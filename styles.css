@@ -10,8 +10,9 @@ button{
     padding: 20px;
     margin: 50px;
 }
-img{
-    width: 400px
+
+    img{
+    max-width: 100%; 
 }
 #content-wrapper{
     display: grid;
