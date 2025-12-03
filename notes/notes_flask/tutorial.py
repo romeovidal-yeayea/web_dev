@@ -21,11 +21,20 @@ def user (name):
 if __name__ == "__main__":
     app.run(debug=True)
 
-#What does Flask do?
+#1. What does Flask do?
 #access the library that allows multi page website
-#What are the steps to setting up a Flask project?
+#2. What are the steps to setting up a Flask project?
+#from flask import Flask
+#app = Flask(__name__)
+#@app.route("/")
+#def home():
+#    return "<h1>Flask web</h1>"
+    #if __name__ == "__main__":
+ #       app.run(debug=True)
 #set up a folder in python
-#How can you reference subpages on your Flask project? (Meaning the difference between the home page and a personal profile)
+#3. How can you reference subpages on your Flask project? (Meaning the difference between the home page and a personal profile)
+#if __name__ == "__main__":
+#        app.run(debug=True)
 
-#What are templates?
-#outside html can impport int the webpage
+#4. What are templates?
+#Allows you to make a full web page with html tags
