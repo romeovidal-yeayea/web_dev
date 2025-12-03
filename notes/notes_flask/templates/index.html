@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Template</title>
-    <style>
-        img{
-            height: 150px;
-            width: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>First Flask Project</h1>
+{% extends "base.html" %}
+{% block content %}Home - Flask{% endblock %}
+{% block body %}
+    <h1>Welcome!</h1>
     <form method="POST">
         <label for name="name">Enter your name:</label>
-        <input type="text" name="name" 
-        placeholder="name">
+        <input type="text" name="name" >
         <br>
         <input type="submit" value="Submit">
     </form>
     <img src="https://www.bing.com/th?id=OVFT.QnPBMXjbWmn9EORg78vigy&pid=News&w=300&h=186&c=14&rs=2&qlt=90" alt="Wabi Sabi">
-</body>
-</html>
+{% endblock %}

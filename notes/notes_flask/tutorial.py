@@ -12,7 +12,7 @@ def home():
 
 @app.route("/contact")
 def contact():
-    return "<p>Don't contact me. I don't like you man.</p>"
+    return render_template("contact.html")
 
 @app.route("/<name>")
 def user (name):
