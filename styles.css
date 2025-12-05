@@ -30,3 +30,32 @@ button{
 #hidden{
     display:none;
 }
+body{
+    background: #CADCFC;
+    color: #00246B;
+}
+header{
+    text-align: center;
+    font-family: Papyrus, cursive ;
+    font-weight: 700;
+    font-size: 400%;
+}
+p{
+    text-align: left;
+    
+}
+img{
+    height: 400px
+}
+function show(){
+    alert("The content had changed")
+    if (showing == "none"){
+        document.getElementById("hidden").style.display = "block"
+        showing = "block"
+        document.getElementById("button").innerHTML = "Show Less"
+    }else{
+        document.getElementById("hidden").style.display = "none"
+        showing = "none"
+        document.getElementById("button").innerHTML = "Show More"
+    }
+}
